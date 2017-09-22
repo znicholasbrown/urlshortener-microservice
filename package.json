@@ -1,0 +1,24 @@
+{
+  "name": "urlshortener-microservice",
+  "version": "0.0.1",
+  "description": "An API that responds to URL queries with a JSON object containing a rerouted URL.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://znicholasbrown.github.io/urlshortener-microservice"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "fcc",
+    "express"
+  ]
+}
